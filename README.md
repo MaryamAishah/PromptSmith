@@ -8,7 +8,7 @@ and optimized rewrites. Built with <strong>Next.js</strong>, <strong>Gemini 2.5 
 
 <hr>
 
-<h2>🚀 Features</h2>
+<h2>Features</h2>
 
 <ul>
   <li><strong>Prompt Clarity Score (0–100)</strong> based on:
@@ -57,7 +57,7 @@ and optimized rewrites. Built with <strong>Next.js</strong>, <strong>Gemini 2.5 
 
 <hr>
 
-<h2>📦 Local Setup</h2>
+<h2>Local Setup</h2>
 
 <h3>1. Clone the repository</h3>
 <pre><code>git clone https://github.com/MaryamAishah/PromptSmith.git
@@ -82,7 +82,7 @@ cd promptsmith
 
 <hr>
 
-<h2>🌐 Deployment (Vercel)</h2>
+<h2>Deployment (Vercel)</h2>
 
 <ul>
   <li>Push the repository to GitHub</li>
@@ -96,7 +96,7 @@ cd promptsmith
 
 <hr>
 
-<h2>📂 Project Structure</h2>
+<h2>Project Structure</h2>
 
 <pre><code>promptsmith/
   pages/
@@ -113,29 +113,5 @@ cd promptsmith
 
 <hr>
 
-<h2>🧠 How It Works</h2>
-
-<ul>
-  <li>User submits a prompt</li>
-  <li><code>/api/analyze</code>:
-    <ul>
-      <li>Sends structured system instructions to Gemini</li>
-      <li>Runs deterministic scoring logic</li>
-      <li>Returns:
-        <ul>
-          <li><code>clarityScore</code></li>
-          <li><code>subscores</code></li>
-          <li><code>weaknesses</code></li>
-          <li><code>improvedPrompts</code></li>
-          <li><code>highlights</code></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>The frontend displays results in a clean UI</li>
-</ul>
-
-<hr>
-
-<h2>📜 License</h2>
+<h2>License</h2>
 <p>MIT License.</p>
