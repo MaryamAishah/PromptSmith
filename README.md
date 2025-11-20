@@ -60,7 +60,7 @@ and optimized rewrites. Built with <strong>Next.js</strong>, <strong>Gemini 2.5 
 <h2>📦 Local Setup</h2>
 
 <h3>1. Clone the repository</h3>
-<pre><code>git clone https://github.com/yourusername/promptsmith.git
+<pre><code>git clone https://github.com/MaryamAishah/PromptSmith.git
 cd promptsmith
 </code></pre>
 
