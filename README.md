@@ -1,14 +1,10 @@
-<h1>🌟 PromptSmith</h1>
+# 🌟 PromptSmith
 
-<p>
 An AI-powered tool that analyzes and improves prompts with clarity scoring, weakness detection, 
 and optimized rewrites. Built with <strong>Next.js</strong>, <strong>Gemini 2.5 Flash</strong>, and 
 <strong>serverless API routes</strong>.
-</p>
 
-<hr>
-
-<h2>Features</h2>
+## Features
 
 <ul>
   <li><strong>Prompt Clarity Score (0–100)</strong> based on:
@@ -27,7 +23,7 @@ and optimized rewrites. Built with <strong>Next.js</strong>, <strong>Gemini 2.5 
     <ul>
       <li>Structured</li>
       <li>Concise</li>
-      <li>Detailed (no examples)</li>
+      <li>Detailed</li>
     </ul>
   </li>
 
@@ -43,9 +39,7 @@ and optimized rewrites. Built with <strong>Next.js</strong>, <strong>Gemini 2.5 
   <li><strong>Next.js API routes</strong> for server-side model calls</li>
 </ul>
 
-<hr>
-
-<h2>🛠️ Tech Stack</h2>
+## Tech Stack
 
 <ul>
   <li>Next.js (Pages Router)</li>
@@ -55,34 +49,30 @@ and optimized rewrites. Built with <strong>Next.js</strong>, <strong>Gemini 2.5 
   <li>Deployed on Vercel</li>
 </ul>
 
-<hr>
+## Local Setup
 
-<h2>Local Setup</h2>
-
-<h3>1. Clone the repository</h3>
+### 1. Clone the repository
 <pre><code>git clone https://github.com/MaryamAishah/PromptSmith.git
 cd promptsmith
 </code></pre>
 
-<h3>2. Install dependencies</h3>
+### 2. Install dependencies
 <pre><code>npm install
 </code></pre>
 
-<h3>3. Add your Gemini API key</h3>
+### 3. Add your Gemini API key 
 <p>Create a <code>.env.local</code> file:</p>
 
 <pre><code>GEMINI_API_KEY=AIza...
 </code></pre>
 
-<h3>4. Run the dev server</h3>
+### 4. Run the dev server 
 <pre><code>npm run dev
 </code></pre>
 
 <p>App runs at: 👉 <a href="http://localhost:3000">http://localhost:3000</a></p>
 
-<hr>
-
-<h2>Deployment (Vercel)</h2>
+## Deployment (Vercel)
 
 <ul>
   <li>Push the repository to GitHub</li>
@@ -94,24 +84,21 @@ cd promptsmith
   <li>Deploy!</li>
 </ul>
 
-<hr>
 
-<h2>Project Structure</h2>
+## Project Structure 
 
 <pre><code>promptsmith/
   pages/
-    index.js            # UI and frontend logic
+    index.js            
     api/
-      analyze.js        # Serverless API route calling Gemini
+      analyze.js        
   public/
-    favicon.ico         # Site icon
+    favicon.ico         
   styles/ 
     globals.css
-  .env.local            # API key (not committed)
+  .env.local            
   package.json
 </code></pre>
-
-<hr>
 
 <h2>License</h2>
 <p>MIT License.</p>
